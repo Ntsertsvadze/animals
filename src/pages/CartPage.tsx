@@ -3,7 +3,6 @@ import React from "react";
 interface CartPageProps {
   onClose: () => void;  
 }
-
 const CartPage: React.FC<CartPageProps> = ({ onClose }) => {
   return (
     <div className="relative z-10" aria-labelledby="slide-over-title" role="dialog" aria-modal="true">
